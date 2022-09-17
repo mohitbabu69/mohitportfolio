@@ -201,12 +201,12 @@ nav ul li a:hover {
 
 .div-1 {
     top: 10.0rem;
-    left: 85.0rem;
+    left: 110.0rem;
 }
 
 .div-2 {
-    bottom: 1.0rem;
-    right: 100.0rem;
+    top: 10.0rem;
+    left: 75.0rem;
 }
 
 .div-3 {
@@ -450,11 +450,11 @@ html{
 
 @media(max-width:998px){
     html{
-        font-size: 55%;
+        font-size: 25%;
     }
 }
 @media(max-width:768px){
     html{
-        font-size: 45%;
+        font-size: 20%;
     }
 }
