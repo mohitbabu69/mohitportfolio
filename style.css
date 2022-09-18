@@ -11,6 +11,7 @@
     align-items: center;
 }
 
+
 body {
     background-color: #1E1E1E;
 }
@@ -143,7 +144,9 @@ nav ul li a:hover {
 }
 
 .main-two img {
-    width: 65.0rem;
+    width: 40.0rem;
+    margin-left: 20rem;
+    filter: grayscale(50%);
 }
 
 .projects {
@@ -439,6 +442,15 @@ footer .social i {
     margin: 0 .3rem;
     cursor: pointer;
 }
+.social1 i{
+    font-size: 3.5rem;
+    margin: 0 .3rem;
+    cursor: pointer;
+    margin-right: 3rem;
+}
+.fa-whatsapp{
+    color: green;
+}
 
 .social i:hover {
     color: palevioletred;
@@ -455,6 +467,6 @@ html{
 }
 @media(max-width:768px){
     html{
-        font-size: 20%;
+        font-size: 25%;
     }
 }
