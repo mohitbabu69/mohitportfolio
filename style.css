@@ -256,6 +256,21 @@ nav ul li a:hover {
     height: 25.0rem;
     padding: 15.0rem 18.0rem;
 }
+.my_certi{
+    /* padding-left: 10rem; */
+    width: 50%;
+}
+.table1{
+    width: 50%;
+    margin-bottom: 100rem;
+    margin-left: 80rem;
+    margin-top: -27rem;}
+    
+table, td, th{
+    border: .2px solid white;
+    border-spacing: 0rem;
+    width: 40%;
+}
 
 .certificates h1{
     font-size: 5.0rem;
@@ -455,6 +470,10 @@ footer .social i {
 .social i:hover {
     color: palevioletred;
 }
+/* .table_certi table{
+    width: 100%;
+} */
+
 
 html{
     font-size: 62.5%;
