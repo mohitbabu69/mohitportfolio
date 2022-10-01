@@ -139,6 +139,43 @@ nav ul li a:hover {
     transform: scale(1.02);
 }
 
+
+.main-one button:hover {
+    color: white;
+    background: transparent;
+    box-shadow: none;
+}
+
+.main-one button:before,
+.main-one button:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 0.2rem;
+    width: 0;
+    background: white;
+    box-shadow:
+        -1px -1px 5px 0px #fff,
+        7px 7px 20px 0px #0003,
+        4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+}
+
+.main-one button:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.main-one button:hover:before,
+.main-one button:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+
 .main .main-two {
     width: 50%;
 }
